@@ -1,0 +1,6 @@
+backend/storage/data/*
+!backend/storage/data/.gitkeep
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+.env
+*.zip

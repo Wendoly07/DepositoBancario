@@ -1,0 +1,20 @@
+<?php
+return [
+    'fix_errors'   => 'Revisá los campos marcados e intentá de nuevo.',
+    'required'     => 'Este campo es obligatorio.',
+    'email'        => 'Ingresá un correo electrónico válido.',
+    'full_name'    => 'Ingresá tu nombre completo (mínimo 3 caracteres).',
+    'dni'          => 'Ingresá un número de DNI válido (sólo números, letras o guiones).',
+    'deposit_code' => 'Ingresá un código de depósito válido.',
+    'bank'         => 'Seleccioná un banco válido.',
+    'date'         => 'Ingresá una fecha válida que no sea futura.',
+    'amount'       => 'Ingresá un monto válido mayor a 0 (máximo 2 decimales).',
+    'reference'    => 'Ingresá un número de referencia válido.',
+    'file'         => 'Adjuntá el comprobante de la transferencia.',
+    'file_size'    => 'El archivo supera el límite de 10 MB.',
+    'file_type'    => 'Tipo de archivo no permitido. Sólo PDF o imagen.',
+    'ownership'    => 'Debés confirmar que la cuenta bancaria está a tu nombre.',
+    'duplicate'    => 'Ya existe una transferencia registrada con ese número de referencia para el banco seleccionado.',
+    'upload_fail'  => 'No se pudo guardar el archivo. Intentá de nuevo.',
+    'success'      => 'Tu transferencia fue registrada correctamente. Número de folio: %s',
+];

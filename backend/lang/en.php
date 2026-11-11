@@ -1,0 +1,20 @@
+<?php
+return [
+    'fix_errors'   => 'Please review the highlighted fields and try again.',
+    'required'     => 'This field is required.',
+    'email'        => 'Please enter a valid email address.',
+    'full_name'    => 'Please enter your full name (at least 3 characters).',
+    'dni'          => 'Please enter a valid ID number (numbers, letters or hyphens only).',
+    'deposit_code' => 'Please enter a valid deposit code.',
+    'bank'         => 'Please select a valid bank.',
+    'date'         => 'Please enter a valid date that is not in the future.',
+    'amount'       => 'Please enter a valid amount greater than 0 (max. 2 decimals).',
+    'reference'    => 'Please enter a valid reference number.',
+    'file'         => 'Please attach the transfer receipt.',
+    'file_size'    => 'The file exceeds the 10 MB limit.',
+    'file_type'    => 'File type not allowed. PDF or image only.',
+    'ownership'    => 'You must confirm that the bank account is in your name.',
+    'duplicate'    => 'A transfer with this reference number is already registered for the selected bank.',
+    'upload_fail'  => 'The file could not be saved. Please try again.',
+    'success'      => 'Your transfer was successfully registered. Reference ID: %s',
+];
